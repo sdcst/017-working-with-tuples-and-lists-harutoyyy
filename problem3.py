@@ -24,4 +24,15 @@ Enter an integer:-1
 The largest number you entered is 92
 """
 
+numbers = []
+for i in range(10):
+    num = int(input("Enter 10 positive integers"))
+    numbers.append(num)
+    numbers.sort()
+print(numbers)
+print(numbers[-1])
+
+
+
+
 
